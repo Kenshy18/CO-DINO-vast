@@ -1,11 +1,12 @@
 # =========================
 # Core ML stack (CUDA 12.2)
 # =========================
---extra-index-url https://download.pytorch.org/whl/cu122
-torch==2.2.2+cu122
-torchvision==0.17.2+cu122
-torchaudio==2.2.2+cu122
-triton==2.2.0                       # PyTorch に合わせる
+--extra-index-url https://download.pytorch.org/whl/cu118
+
+torch==2.1.2+cu118
+torchvision==0.16.2+cu118
+torchaudio==2.1.2+cu118
+triton==2.1.0
 
 # =========================
 # MMDetection family
